@@ -32,5 +32,6 @@ def main():
     chars_dict = get_chars_dict(text)
     chars_sorted_list = chars_dict_to_sorted_list(chars_dict)
     print_report(book_path, num_words, chars_sorted_list)
-
-main()
+    
+if __name__ == "__main__":
+    main()
